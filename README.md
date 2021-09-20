@@ -5,7 +5,7 @@ FusedChat is an inter-mode dialogue dataset. It contains dialogue sessions fusin
 
 **09/19/2021** Dataset released.
 
-**09/20/2021** Details on dataset annotations are added at data/README.md.
+**09/20/2021** Details on dataset annotations are added in data/README.md.
 
 # Notice
 
