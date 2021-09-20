@@ -9,7 +9,7 @@ FusedChat is an inter-mode dialogue dataset. It contains dialogue sessions fusin
 
 # Notice
 
-More details on the dataset and the code are set to release very soon.
+More details on the dataset and the code are set to be released very soon.
 
 # References
 ```
