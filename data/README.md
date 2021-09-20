@@ -11,4 +11,4 @@
     *   **appended** - Only exists in "appending.json". This dialogue turn is a new ODD turn added by FusedChat.
 In the case of "appending.json", we also note down
     *   **num_rewritten**: How many dialogue turns have been rewritten. It could be 0. (In the case of "prepending.json", it is always 1, therefore we do not note it down)
-    *   **num_disarded**: How many turns has been discarded from the end of the dialogue. (We heuristically discard dialogue turns that feature conversation ending patterns such as dialogue-act:thank-you and dialogue-act:goodbye)
+    *   **num_disarded**: How many turns have been discarded from the end of the dialogue. (We heuristically discard dialogue turns that feature conversation ending patterns such as dialogue-act:thank-you and dialogue-act:goodbye)
