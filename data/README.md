@@ -3,7 +3,7 @@
 
 "appending.json" and "prepending.json" are both dictionaries. Each item is a dialogue. The key is the original dialogue id used in MultiWOZ. The value is another dictionary containing 2 or 4 items:
 *   **turns**: A list of dialogue turns.
-*   **types**: A list of types of **turns** (**types** is the same length as **turns**).
+*   **types**: A list of types of **turns** (**types** is the same length as **turns**). 
     A type can be one of the following 4:
     *   **original** - This dialogue turn is the same as the original turn in MultiWOZ.
     *   **rewritten** - This dialogue turn corresponds to an original turn in MultiWOZ. However, the turn has been rewritten in FusedChat. If the turn is in an "TOD + ODD" dialogue session (appending), it was rewritten to promote more natural dialogue flow. If the turn is in an "ODD + TOD" dialogue session (prepending), it was rewritten to model inter-mode dependency.
