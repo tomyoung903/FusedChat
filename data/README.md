@@ -1,7 +1,8 @@
 
 "appending.json" contains "TOD + ODD" sessions while "prepending.json" contains "ODD + TOD sessions".
 
-"appending.json" and "prepending.json" are both dictionaries. Each item is a dialogue. The key is the original dialogue id used in MultiWOZ. The value is another dictionary containing 2 or 4 items:
+"appending.json" and "prepending.json" are both dictionaries. Each item is a dialogue. The key is the original dialogue id used in MultiWOZ. The value is another dictionary containing the following items:
+*   **creator**: Which creator wrote the dialogue. The creator id is in the range of (0, 112).
 *   **turns**: A list of dialogue turns.
 *   **types**: A list of types of **turns** (**types** is the same length as **turns**). 
     A type can be one of the following 4:
