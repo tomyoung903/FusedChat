@@ -1,6 +1,7 @@
 
 "appended.json" contains "TOD + ODD" sessions while "prepended.json" contains "ODD + TOD sessions".
 
+
 "appended.json" and "prepended.json" are both dictionaries. Each item is a dialogue. The key is the original dialogue id used in MultiWOZ. The value is another dictionary containing the following items:
 *   **creator**: Which creator wrote the dialogue. The creator id is in the range of (0, 112).
 *   **turns**: A list of dialogue turns.
