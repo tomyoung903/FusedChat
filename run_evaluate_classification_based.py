@@ -3,6 +3,8 @@ import os
 if not os.path.isdir('./outs'):
     os.mkdir('./outs')
 
+
+
 command = "python "  + \
 "evaluate_slot_accuracy.py --model_type=\'classification-based\' "  + \
 "--cls_ckp_dir=\'cls_models/multi_turn.mdl\' " + \
@@ -22,4 +24,5 @@ command = "python "  + \
 ""
 
 os.system(command)
+
 
