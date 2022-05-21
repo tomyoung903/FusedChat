@@ -7,7 +7,7 @@ FusedChat is an inter-mode dialogue dataset. It contains dialogue sessions fusin
 
 **02/23/2022** Dataset was further augmented and reorganized.
 
-**04/10/2022** Added author-trained checkpoints, baseline codes and evaluation codes.
+**04/10/2022** Added author-trained checkpoints, baseline code and evaluation code.
 
 
 # Code
