@@ -27,7 +27,7 @@ set `--context_type` to `last_turn` or `multi_turn` to generate the last-turn or
 
 ## Response generation models
 
-You have to generate the data first using the 3 scripts below before evaluation. We overloaded the training script with data generation purposes. Each mode has its own data format.
+You have to generate the data first using the 3 scripts below before evaluation. We overloaded the training scripts with data generation purposes. Each mode has its own data format.
 
 **run_train_tod_single.py** Train the TOD (single mode) model. This model is trained on FusedChat data where the response is in the TOD mode. Setting only_generating_data to 'yes' will only generate the data (tokenized dataset and tensor cache).
 
