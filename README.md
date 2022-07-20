@@ -27,13 +27,15 @@ set `--context_type` to `last_turn` or `multi_turn` to generate the last-turn or
 
 ## Response generation models
 
-!! One has to generate the data first using the 3 scripts below before evaluation. Each mode has its own data format.
+**!! One has to generate the data first using the 3 scripts below before evaluation. Each mode has its own data format.
 
 **run_train_tod_single.py** Train the TOD (single mode) model. This model is trained on FusedChat data where the response is in the TOD mode. Setting only_generating_data to 'yes' will only generate the data (tokenized dataset and tensor cache).
 
 **run_train_chitchat_single.py** Train the chitchat (or ODD, single mode) model. This model is trained on FusedChat data where the response is in the ODD mode. Setting only_generating_data to 'yes' will only generate the data (tokenized dataset and tensor cache).
 
 **run_train_fused.py** Train the fused model. This model is trained on all FusedChat data. Setting only_generating_data to 'yes' will only generate the data (tokenized dataset and tensor cache).
+
+
 
 **run_evaluate_classification_based.py** Evaluate the classification-based response generation models.
 
